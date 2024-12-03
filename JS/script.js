@@ -88,17 +88,7 @@ $(document).ready(function () {
 });
 
 
-document.addEventListener('visibilitychange',
-    function () {
-        if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Umer Qureshi";
-            $("#favicon").attr("href", "assets/images/logo.ico");
-        }
-        else {
-            document.title = "Portfolio | Umer Qureshi";
-            $("#favicon").attr("href", "assets/images/logo.ico");
-        }
-    });
+
 
 //Animation of text spaning..
 // <!-- typed js effect starts -->
